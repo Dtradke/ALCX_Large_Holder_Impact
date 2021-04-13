@@ -1,0 +1,13 @@
+Username: dtradke
+
+This repository works towards question #11 on the webpage https://www.notion.so/Analytics-Bounties-for-Alchemix-ffd6c25bdef3486c9b8dfa9476ac6a39. This question revolves around analyzing the activity of the top 25 volume holders of the Alchemix (ALCX) cryptocurrency using Flipside Crypto data. My analysis looks at wealth disparity and Gini index of the community, and transaction amount with Transmuter, Alchemist/Vault, and 4 Farm Pools.
+
+My solution is located in a jupyter notebook. The notebook can run off of offline saved data to attached JSON files located in 'data/'. The notebook can also use real-time data to update the attached graphs.
+
+I have included multiple ways to view the report:
+
+1) Large_Holder_Activity.ipynb --> This is a jupyter notebook. The code can be actually run in here by execting "jupyter notebook Large_Holder_Activity.ipynb" in terminal from this directory.
+
+2) Large_Holder_Activity.html --> This is an HTML copy of the notebook, which can be viewed by opening the file with a web application such as Safari or Chrome.
+
+3) Large_Holder_Activity.pdf --> This is an exported PDF document of the write-up and code included in the jupyter notebook. This also includes the graphs that the code generates.
